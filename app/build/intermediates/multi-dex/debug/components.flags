@@ -1,0 +1,141 @@
+-injars 'C:\Users\Rohit\AndroidStudioProjects\trybe_code\app\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar'
+-outjars 'C:\Users\Rohit\AndroidStudioProjects\trybe_code\app\build\intermediates\multi-dex\debug\componentClasses.jar'
+
+-libraryjars 'D:\studio\sdk\build-tools\22.0.1\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **,com.android.tools.fd.**,android.support.multidex.MultiDexExtractor
+-dontwarn **
+-printconfiguration 'C:\Users\Rohit\AndroidStudioProjects\trybe_code\app\build\intermediates\multi-dex\debug\components.flags'
+
+
+-keep class com.trybe.trybe.app.BaseApplication {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep class com.trybe.trybe.HomeActivity {
+    <init>();
+}
+
+-keep class com.facebook.FacebookActivity {
+    <init>();
+}
+
+-keep class com.trybe.trybe.LoginActivity {
+    <init>();
+}
+
+-keep class com.trybe.trybe.ProfilePicActivity {
+    <init>();
+}
+
+-keep class com.trybe.trybe.ProfileSetupActivity {
+    <init>();
+}
+
+-keep class com.trybe.trybe.JobPref1Activity {
+    <init>();
+}
+
+-keep class com.trybe.trybe.JobPref2Activity {
+    <init>();
+}
+
+-keep class com.trybe.trybe.ProfileSetupCompletedActivity {
+    <init>();
+}
+
+-keep class com.trybe.trybe.SeekActivity {
+    <init>();
+}
+
+-keep class com.trybe.trybe.ReferActivity {
+    <init>();
+}
+
+-keep class com.trybe.trybe.JobPostActivity {
+    <init>();
+}
+
+-keep class com.trybe.trybe.ShareActivity {
+    <init>();
+}
+
+-keep class com.trybe.trybe.ChatActivity {
+    <init>();
+}
+
+-keep class com.trybe.trybe.ChatMessageActivity {
+    <init>();
+}
+
+-keep class com.trybe.trybe.ChangePassActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.gcm.GcmReceiver {
+    <init>();
+}
+
+-keep class com.trybe.trybe.gcm.GcmPushReceiver {
+    <init>();
+}
+
+-keep class com.trybe.trybe.gcm.GcmIntentService {
+    <init>();
+}
+
+-keep class com.facebook.FacebookContentProvider {
+    <init>();
+}
+
+-keep class com.google.android.gms.measurement.AppMeasurementContentProvider {
+    <init>();
+}
+
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver {
+    <init>();
+}
+
+-keep class com.google.android.gms.measurement.AppMeasurementService {
+    <init>();
+}
+
+-keep class com.google.android.gms.ads.AdActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.ads.purchase.InAppPurchaseActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.appinvite.PreviewActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.auth.api.signin.internal.SignInHubActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.auth.api.signin.RevocationBoundService {
+    <init>();
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.fd.** {
+    <fields>;
+    <methods>;
+}

@@ -1,0 +1,7 @@
+#Fri Aug 10 19:53:17 IST 2018
+base.0=/Users/utkarshsingh/Downloads/trybe_code/app/build/intermediates/transforms/dexMerger/debug/10
+path.1=classes2.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/Users/utkarshsingh/Downloads/trybe_code/app/build/intermediates/transforms/dexMerger/debug/10

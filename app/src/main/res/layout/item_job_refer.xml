@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorPurple">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profilePic"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/user" />
+
+        <View
+            android:id="@+id/item_swipe_left_indicator"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_margin="10dp"
+            android:alpha="0"
+            android:background="#A5F" />
+
+        <View
+            android:id="@+id/item_swipe_right_indicator"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_margin="10dp"
+            android:alpha="0"
+            android:background="#5AF" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Name"
+                android:textColor="@color/textGray"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="****** ****"
+                android:textColor="@color/textGray"
+                android:textSize="@dimen/textLarge" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Education"
+                android:textColor="@color/textGray"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tvSchool"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Elec Eng IIT Kanpur"
+                android:textColor="@color/textGray"
+                android:textSize="@dimen/textLarge" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Work Experience"
+                android:textColor="@color/textGray"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tvWork"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Assist Manager, Samsung"
+                android:textColor="@color/textGray"
+                android:textSize="@dimen/textLarge" />
+
+            <TextView
+                android:id="@+id/tvSectorsTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Sectors"
+                android:textColor="@color/textGray"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tvSectors"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Data Analytics"
+                android:textColor="@color/textGray"
+                android:textSize="@dimen/textLarge" />
+
+            <TextView
+                android:id="@+id/tvSkillsTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Skills"
+                android:textColor="@color/textGray"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tvSkills"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="C++, Photoshop"
+                android:textColor="@color/textGray"
+                android:textSize="@dimen/textLarge" />
+
+            <TextView
+                android:id="@+id/tvProjects"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text=""
+                android:textColor="@color/textGray"
+                android:textSize="@dimen/textLarge" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="io.branch.external.answersshim:answers-shim-0.0.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/answers-shim-0.0.4.aar/348af9806362b89bc828a23ade12a859/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/answers-shim-0.0.4.aar/348af9806362b89bc828a23ade12a859/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.branch.external.answersshim/answers-shim/0.0.4/1e2f5c0b6a3c06a707ca7edea5508eb0ee15ed26/answers-shim-0.0.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

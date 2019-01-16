@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="5dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="15dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/chatItemPic"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/anon_user" />
+
+    <TextView
+        android:id="@+id/chatItemName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/chatItemPic"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_toRightOf="@id/chatItemPic"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/textChatPurple"
+        android:textSize="@dimen/textLarge" />
+
+    <ImageView
+        android:id="@+id/chatItemUnread"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@id/chatItemPic"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/circle50"
+        android:visibility="gone" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/chatItemPic"
+        android:layout_marginLeft="60dp"
+        android:background="@color/textChatPurple" />
+
+</RelativeLayout>

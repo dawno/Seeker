@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingRight="@dimen/activity_horizontal_margin_less"
+    android:paddingTop="32dp">
+
+    <ImageView
+        android:id="@+id/jobIv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="85dp"
+        android:background="@drawable/circle_list" />
+
+    <TextView
+        android:id="@+id/jobNum"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="85dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/jobName"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="54dp"
+        android:layout_toRightOf="@id/jobNum"
+        android:gravity="center_vertical"
+        android:text="tv"
+        android:textColor="@color/textGray"
+        android:textSize="@dimen/textMedium" />
+
+    <ImageView
+        android:id="@+id/jobDelete"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/icon_delete" />
+
+    <ImageView
+        android:id="@+id/jobInfo"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="42dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/icon_view" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/jobIv"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/colorPrimary" />
+
+</RelativeLayout>

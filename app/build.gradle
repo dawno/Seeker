@@ -1,0 +1,77 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+    }
+    compileSdkVersion 23
+    buildToolsVersion '27.0.3'
+    defaultConfig {
+        applicationId "com.trybe.trybe"
+        minSdkVersion 17
+        targetSdkVersion 23
+        versionCode 3
+        versionName "1.2"
+        multiDexEnabled true
+        vectorDrawables.useSupportLibrary=true
+        javaCompileOptions {
+            annotationProcessorOptions {
+                includeCompileClasspath = true
+            }
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile project(':linkedin-sdk')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:multidex:1.0.0'
+    compile('com.github.afollestad.material-dialogs:core:0.8.5.8@aar') {
+        transitive = true
+    }
+    //noinspection GradleCompatible
+   // implementation 'com.jakewharton:butterknife:7.0.1'
+    compile 'com.jakewharton:butterknife:7.0.1'
+   //annotationProcessor 'com.jakewharton:butterknife-compiler:7.0.1'
+    compile 'com.android.support:support-v4:23.3.0'
+    compile 'com.android.support:appcompat-v7:23.3.0'
+    compile 'com.android.support:recyclerview-v7:23.3.0'
+    compile 'com.android.support:design:23.3.0'
+    compile 'com.google.android.gms:play-services-gcm:8.4.0'
+    compile 'com.google.android.gms:play-services:8.4.0'
+    compile 'com.google.android.gms:play-services-location:8.4.0'
+    compile 'com.lorentzos.swipecards:library:1.0.9@aar'
+
+    compile 'de.hdodenhof:circleimageview:2.0.0'
+    compile 'com.mcxiaoke.volley:library:1.0.19'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.google.code.gson:gson:2.5'
+    compile 'com.loopj.android:android-async-http:1.4.9'
+    compile 'com.github.paolorotolo:appintro:3.4.0'
+    compile 'uk.co.chrisjenx:calligraphy:2.1.0'
+    compile 'ch.acra:acra:4.6.2'
+    compile 'com.facebook.android:facebook-android-sdk:4.7.0'
+    compile 'io.branch.sdk.android:library:2.0.3'
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+apply plugin: 'com.google.gms.google-services'

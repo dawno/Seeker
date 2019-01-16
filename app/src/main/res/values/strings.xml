@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">TrYbE</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">trybe</string>
+    <string name="crash_toast_text">Ooops! I crashed, but a report has been sent to my developer to help him fix the issue!</string>
+    <string name="share_text">"Hey this cool app is an exciting way to get referred at the best workplaces! Come and join the new Trybe!</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_name">Name</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_confirm_password">Confirm Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_up">Sign up</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">Incorrect password</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="forgot_pass_heading">We have sent you an authentication code at your registered email id</string>
+
+    <!-- Strings related to navigation drawer -->
+    <string name="drawer_open">Open navigation menu</string>
+    <string name="drawer_close">Close navigation menu</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="title_activity_profile_setup">ProfileSetupActivity</string>
+    <string name="title_activity_seek">SeekActivity</string>
+    <string name="title_activity_refer">ReferActivity</string>
+    <string name="title_share_activity">ShareActivity</string>
+
+    <!-- Profile setup page 1 -->
+    <string name="pic_change_caption"><b>Change your picture</b></string>
+
+    <!-- Profile setup page 2 -->
+    <string name="sectorTitle">What are the sectors you are good at</string>
+    <string name="sectorHint">eg Data Analytics, Front end, eating pani puris etc</string>
+    <string name="skillTitle">What are the skills you mastered</string>
+    <string name="skillHint">eg Powerpoint, C++, cutting onions without tears etc</string>
+    <string name="projectTitle">Write one project to show off</string>
+    <string name="projectHint">eg I jumped off a plane to land directly on Mt Everest</string>
+    <string name="app_id">207491249637929</string>
+</resources>

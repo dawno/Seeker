@@ -1,0 +1,648 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:2:1-174:12
+INJECTED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:2:1-174:12
+INJECTED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:2:1-174:12
+INJECTED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:2:1-174:12
+MERGED from [:linkedin-sdk] /Users/utkarshsingh/Downloads/trybe_code/linkedin-sdk/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:multidex:1.0.2] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/ed9152224c357ea2f284bdb13140b1a4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.afollestad.material-dialogs:core:0.8.5.8] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/core-0.8.5.8.aar/1bf4a8c92efdee8f18350fc97e1e1d8c/AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:design:23.3.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/design-23.3.0.aar/d0eff68daf38bb0d543c302d46dcb90e/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:recyclerview-v7:23.3.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-23.3.0.aar/69fd8ff857c6df4b3832f8efd6304085/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.paolorotolo:appintro:3.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/appintro-3.4.0.aar/acee6c3c6ec4f271a228db42761a2199/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.android:facebook-android-sdk:4.7.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.7.0.aar/f526d2b2ad9c0c7f3dd8f30af672a514/AndroidManifest.xml:21:1-30:12
+MERGED from [com.google.android.gms:play-services:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-8.4.0.aar/84663879869e1650fbe4a694471b8814/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-gcm-8.4.0.aar/378faf2b86e8ed18db39198394ecd2d1/AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/7afa5471ed86867b05330e1337589d4c/AndroidManifest.xml:16:1-47:12
+MERGED from [com.google.android.gms:play-services-fitness:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-fitness-8.4.0.aar/f181205d3dbee190303de0dc5493b4b4/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-location:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-location-8.4.0.aar/876b2c477ffa2b4e28c23cd97b69c6a6/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-appindexing-8.4.0.aar/3862fec7c8e8cdf32bfca02d9250fe53/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-8.4.0.aar/eba509544df031cdebbc9c523233dede/AndroidManifest.xml:16:1-31:12
+MERGED from [com.google.android.gms:play-services-appstate:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-appstate-8.4.0.aar/9bdc878063c93559e6a83abcd3282930/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-auth:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-auth-8.4.0.aar/144c8deb3d288959aaa220cb8a9a06aa/AndroidManifest.xml:16:1-33:12
+MERGED from [com.google.android.gms:play-services-cast:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-cast-8.4.0.aar/3ce3fa44d7dabed520f37321a9cfb84f/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-games:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-games-8.4.0.aar/333c676c4f140bafd3b160474277977b/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-drive:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-drive-8.4.0.aar/0e24bc631744b77b48779fd3e17731ce/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-wallet:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-wallet-8.4.0.aar/1c0504c94b33682630bf56f26a33a3b1/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-identity:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-identity-8.4.0.aar/13c803d791afec037b228be7e1061d3e/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-maps-8.4.0.aar/12e76a71ab266877ab4611abc28d3153/AndroidManifest.xml:16:1-28:12
+MERGED from [com.google.android.gms:play-services-nearby:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-nearby-8.4.0.aar/a883e735d3bd185c572971a4dea240f6/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-panorama:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-panorama-8.4.0.aar/04adcf4b20da03f166c0650f1ccde392/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-plus:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-plus-8.4.0.aar/6fb91772c7402b274a8034220f463b74/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-safetynet:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-8.4.0.aar/52097878101b826fe9f65f9d89b0f8fc/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-vision:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-vision-8.4.0.aar/de9d74314820dc9247d32c5f256d6339/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-wearable:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-wearable-8.4.0.aar/730e05647496e68751e8c7eb44297ef8/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/a609e5a3c5c199c99c1bc46d59aad791/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-ads-8.4.0.aar/47cf0a246c9ebdf3889284c7e764fce2/AndroidManifest.xml:16:1-33:12
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-analytics-8.4.0.aar/d796a124e651d859ab26894348481de7/AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-basement-8.4.0.aar/3a2c676fe8a9a2bf81c5fb6757361243/AndroidManifest.xml:16:1-26:12
+MERGED from [uk.co.chrisjenx:calligraphy:2.1.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/calligraphy-2.1.0.aar/ef55101825351f567387ccfb5a847421/AndroidManifest.xml:2:1-13:12
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.1.5] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/library-1.1.5.aar/01aedb36dd3969fbf3a2c8af50748054/AndroidManifest.xml:6:1-16:12
+MERGED from [com.android.support:mediarouter-v7:23.0.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/982a8005d9b12200f6c2091670a5e14a/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:23.3.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.3.0.aar/dfcc9a4c1fb40da5c6f3cc35a3007391/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.3.0.aar/15f1269955b8eb80b505bd647c47b397/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-vector-drawable:23.3.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.3.0.aar/63a74c984e5052132f06c9acad988629/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-v4:23.3.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/support-v4-23.3.0.aar/0de8f1bfecffdbb4f56506489d8b2548/AndroidManifest.xml:17:1-24:12
+MERGED from [com.lorentzos.swipecards:library:1.0.9] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/library-1.0.9.aar/04953be7cd467cb93041166088ccd150/AndroidManifest.xml:2:1-14:12
+MERGED from [de.hdodenhof:circleimageview:2.0.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/circleimageview-2.0.0.aar/ace207220f28e38e7eacb85be945616f/AndroidManifest.xml:2:1-11:12
+MERGED from [io.branch.sdk.android:library:2.0.3] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/library-2.0.3.aar/1bca88d1338a0685906fe25fc81fb3af/AndroidManifest.xml:2:1-11:12
+MERGED from [io.branch.external.answersshim:answers-shim:0.0.4] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/answers-shim-0.0.4.aar/061aee67d7ef602bc55c604434ee2ffa/AndroidManifest.xml:2:1-13:12
+INJECTED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:2:1-174:12
+INJECTED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:2:1-174:12
+INJECTED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:2:1-174:12
+	package
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:3:5-30
+		INJECTED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:2:1-174:12
+		INJECTED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:2:1-174:12
+		INJECTED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:5:5-80
+	android:name
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:5:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:6:22-78
+uses-permission#android.permission.CAMERA
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:7:5-65
+	android:name
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:7:22-62
+uses-permission#android.permission.INTERNET
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:8:5-67
+MERGED from [:linkedin-sdk] /Users/utkarshsingh/Downloads/trybe_code/linkedin-sdk/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-67
+MERGED from [:linkedin-sdk] /Users/utkarshsingh/Downloads/trybe_code/linkedin-sdk/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-gcm-8.4.0.aar/378faf2b86e8ed18db39198394ecd2d1/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-gcm-8.4.0.aar/378faf2b86e8ed18db39198394ecd2d1/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/7afa5471ed86867b05330e1337589d4c/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/7afa5471ed86867b05330e1337589d4c/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-8.4.0.aar/eba509544df031cdebbc9c523233dede/AndroidManifest.xml:19:5-67
+MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-8.4.0.aar/eba509544df031cdebbc9c523233dede/AndroidManifest.xml:19:5-67
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-maps-8.4.0.aar/12e76a71ab266877ab4611abc28d3153/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-maps-8.4.0.aar/12e76a71ab266877ab4611abc28d3153/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-ads-8.4.0.aar/47cf0a246c9ebdf3889284c7e764fce2/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-ads-8.4.0.aar/47cf0a246c9ebdf3889284c7e764fce2/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-analytics-8.4.0.aar/d796a124e651d859ab26894348481de7/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-analytics-8.4.0.aar/d796a124e651d859ab26894348481de7/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:8:22-64
+uses-permission#android.permission.READ_LOGS
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:9:22-65
+uses-permission#android.permission.GET_TASKS
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:10:5-68
+	android:name
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:10:22-65
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:11:22-78
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:14:5-68
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/7afa5471ed86867b05330e1337589d4c/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/7afa5471ed86867b05330e1337589d4c/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:14:22-65
+permission#com.trybe.trybe.permission.C2D_MESSAGE
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:16:5-18:47
+	android:protectionLevel
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:18:9-44
+	android:name
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:17:9-62
+uses-permission#com.trybe.trybe.permission.C2D_MESSAGE
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:20:22-75
+uses-feature#android.hardware.camera
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:23:5-25:36
+	android:required
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:25:9-33
+	android:name
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:24:9-47
+application
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:27:5-172:19
+MERGED from [:linkedin-sdk] /Users/utkarshsingh/Downloads/trybe_code/linkedin-sdk/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:5-20
+MERGED from [:linkedin-sdk] /Users/utkarshsingh/Downloads/trybe_code/linkedin-sdk/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:5-20
+MERGED from [com.github.afollestad.material-dialogs:core:0.8.5.8] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/core-0.8.5.8.aar/1bf4a8c92efdee8f18350fc97e1e1d8c/AndroidManifest.xml:13:5-20
+MERGED from [com.github.afollestad.material-dialogs:core:0.8.5.8] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/core-0.8.5.8.aar/1bf4a8c92efdee8f18350fc97e1e1d8c/AndroidManifest.xml:13:5-20
+MERGED from [com.android.support:design:23.3.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/design-23.3.0.aar/d0eff68daf38bb0d543c302d46dcb90e/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.3.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/design-23.3.0.aar/d0eff68daf38bb0d543c302d46dcb90e/AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.android:facebook-android-sdk:4.7.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.7.0.aar/f526d2b2ad9c0c7f3dd8f30af672a514/AndroidManifest.xml:28:5-20
+MERGED from [com.facebook.android:facebook-android-sdk:4.7.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.7.0.aar/f526d2b2ad9c0c7f3dd8f30af672a514/AndroidManifest.xml:28:5-20
+MERGED from [com.google.android.gms:play-services:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-8.4.0.aar/84663879869e1650fbe4a694471b8814/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-8.4.0.aar/84663879869e1650fbe4a694471b8814/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-gcm-8.4.0.aar/378faf2b86e8ed18db39198394ecd2d1/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-gcm-8.4.0.aar/378faf2b86e8ed18db39198394ecd2d1/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/7afa5471ed86867b05330e1337589d4c/AndroidManifest.xml:26:5-46:19
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/7afa5471ed86867b05330e1337589d4c/AndroidManifest.xml:26:5-46:19
+MERGED from [com.google.android.gms:play-services-fitness:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-fitness-8.4.0.aar/f181205d3dbee190303de0dc5493b4b4/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-fitness:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-fitness-8.4.0.aar/f181205d3dbee190303de0dc5493b4b4/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-location:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-location-8.4.0.aar/876b2c477ffa2b4e28c23cd97b69c6a6/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-location:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-location-8.4.0.aar/876b2c477ffa2b4e28c23cd97b69c6a6/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-appindexing-8.4.0.aar/3862fec7c8e8cdf32bfca02d9250fe53/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-appindexing-8.4.0.aar/3862fec7c8e8cdf32bfca02d9250fe53/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-8.4.0.aar/eba509544df031cdebbc9c523233dede/AndroidManifest.xml:20:5-30:19
+MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-8.4.0.aar/eba509544df031cdebbc9c523233dede/AndroidManifest.xml:20:5-30:19
+MERGED from [com.google.android.gms:play-services-appstate:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-appstate-8.4.0.aar/9bdc878063c93559e6a83abcd3282930/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-appstate:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-appstate-8.4.0.aar/9bdc878063c93559e6a83abcd3282930/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-auth:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-auth-8.4.0.aar/144c8deb3d288959aaa220cb8a9a06aa/AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.android.gms:play-services-auth:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-auth-8.4.0.aar/144c8deb3d288959aaa220cb8a9a06aa/AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.android.gms:play-services-cast:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-cast-8.4.0.aar/3ce3fa44d7dabed520f37321a9cfb84f/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-cast:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-cast-8.4.0.aar/3ce3fa44d7dabed520f37321a9cfb84f/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-games:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-games-8.4.0.aar/333c676c4f140bafd3b160474277977b/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-games:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-games-8.4.0.aar/333c676c4f140bafd3b160474277977b/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-drive:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-drive-8.4.0.aar/0e24bc631744b77b48779fd3e17731ce/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-drive:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-drive-8.4.0.aar/0e24bc631744b77b48779fd3e17731ce/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-identity:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-identity-8.4.0.aar/13c803d791afec037b228be7e1061d3e/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-identity:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-identity-8.4.0.aar/13c803d791afec037b228be7e1061d3e/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-maps-8.4.0.aar/12e76a71ab266877ab4611abc28d3153/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-maps-8.4.0.aar/12e76a71ab266877ab4611abc28d3153/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-nearby:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-nearby-8.4.0.aar/a883e735d3bd185c572971a4dea240f6/AndroidManifest.xml:20:5-20
+MERGED from [com.google.android.gms:play-services-nearby:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-nearby-8.4.0.aar/a883e735d3bd185c572971a4dea240f6/AndroidManifest.xml:20:5-20
+MERGED from [com.google.android.gms:play-services-panorama:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-panorama-8.4.0.aar/04adcf4b20da03f166c0650f1ccde392/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-panorama:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-panorama-8.4.0.aar/04adcf4b20da03f166c0650f1ccde392/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-plus:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-plus-8.4.0.aar/6fb91772c7402b274a8034220f463b74/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-plus:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-plus-8.4.0.aar/6fb91772c7402b274a8034220f463b74/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-8.4.0.aar/52097878101b826fe9f65f9d89b0f8fc/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-8.4.0.aar/52097878101b826fe9f65f9d89b0f8fc/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-vision:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-vision-8.4.0.aar/de9d74314820dc9247d32c5f256d6339/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-vision:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-vision-8.4.0.aar/de9d74314820dc9247d32c5f256d6339/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-wearable:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-wearable-8.4.0.aar/730e05647496e68751e8c7eb44297ef8/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-wearable:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-wearable-8.4.0.aar/730e05647496e68751e8c7eb44297ef8/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-ads-8.4.0.aar/47cf0a246c9ebdf3889284c7e764fce2/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-ads-8.4.0.aar/47cf0a246c9ebdf3889284c7e764fce2/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-analytics-8.4.0.aar/d796a124e651d859ab26894348481de7/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-analytics-8.4.0.aar/d796a124e651d859ab26894348481de7/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-basement-8.4.0.aar/3a2c676fe8a9a2bf81c5fb6757361243/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-basement-8.4.0.aar/3a2c676fe8a9a2bf81c5fb6757361243/AndroidManifest.xml:20:5-24:19
+MERGED from [uk.co.chrisjenx:calligraphy:2.1.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/calligraphy-2.1.0.aar/ef55101825351f567387ccfb5a847421/AndroidManifest.xml:11:5-20
+MERGED from [uk.co.chrisjenx:calligraphy:2.1.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/calligraphy-2.1.0.aar/ef55101825351f567387ccfb5a847421/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:mediarouter-v7:23.0.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/982a8005d9b12200f6c2091670a5e14a/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:mediarouter-v7:23.0.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/982a8005d9b12200f6c2091670a5e14a/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.3.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.3.0.aar/dfcc9a4c1fb40da5c6f3cc35a3007391/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:23.3.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.3.0.aar/dfcc9a4c1fb40da5c6f3cc35a3007391/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.3.0.aar/15f1269955b8eb80b505bd647c47b397/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.3.0.aar/15f1269955b8eb80b505bd647c47b397/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.3.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.3.0.aar/63a74c984e5052132f06c9acad988629/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.3.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.3.0.aar/63a74c984e5052132f06c9acad988629/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.3.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/support-v4-23.3.0.aar/0de8f1bfecffdbb4f56506489d8b2548/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.3.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/support-v4-23.3.0.aar/0de8f1bfecffdbb4f56506489d8b2548/AndroidManifest.xml:22:5-20
+MERGED from [com.lorentzos.swipecards:library:1.0.9] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/library-1.0.9.aar/04953be7cd467cb93041166088ccd150/AndroidManifest.xml:12:5-20
+MERGED from [com.lorentzos.swipecards:library:1.0.9] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/library-1.0.9.aar/04953be7cd467cb93041166088ccd150/AndroidManifest.xml:12:5-20
+MERGED from [de.hdodenhof:circleimageview:2.0.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/circleimageview-2.0.0.aar/ace207220f28e38e7eacb85be945616f/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.0.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/circleimageview-2.0.0.aar/ace207220f28e38e7eacb85be945616f/AndroidManifest.xml:9:5-20
+MERGED from [io.branch.external.answersshim:answers-shim:0.0.4] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/answers-shim-0.0.4.aar/061aee67d7ef602bc55c604434ee2ffa/AndroidManifest.xml:11:5-20
+MERGED from [io.branch.external.answersshim:answers-shim:0.0.4] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/answers-shim-0.0.4.aar/061aee67d7ef602bc55c604434ee2ffa/AndroidManifest.xml:11:5-20
+	android:supportsRtl
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:32:9-35
+	android:label
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:31:9-41
+	android:icon
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:30:9-36
+	android:allowBackup
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:29:9-35
+	android:theme
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:33:9-40
+	android:name
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:28:9-44
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:34:9-36:45
+	android:value
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:36:13-43
+	android:name
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:35:13-58
+activity#com.trybe.trybe.HomeActivity
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:38:9-64:20
+	android:label
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:40:13-45
+	android:theme
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:41:13-56
+	android:name
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:39:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:42:13-46:29
+action#android.intent.action.MAIN
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:43:17-69
+	android:name
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:43:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:45:17-77
+	android:name
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:45:27-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:open+data:scheme:TrYbE
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:47:13-55:29
+	android:autoVerify
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:47:28-53
+	android:pathPrefix
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:48:17-43
+data
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:49:17-51:46
+	android:host
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:50:21-40
+	android:scheme
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:51:21-43
+	android:pathPrefix
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:61:84-110
+action#android.intent.action.VIEW
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:52:17-69
+	android:name
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:52:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:53:17-76
+	android:name
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:53:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:54:17-78
+	android:name
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:54:27-75
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:trybedownload.app.link+data:pathPrefix:/kL9r+data:scheme:https
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:57:13-62:29
+activity#com.facebook.FacebookActivity
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:65:9-69:75
+	android:label
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:68:13-45
+	android:configChanges
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:67:13-96
+	android:theme
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:69:13-72
+	android:name
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:66:13-57
+activity#com.trybe.trybe.LoginActivity
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:70:9-74:88
+	android:label
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:72:13-57
+	android:windowSoftInputMode
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:74:13-85
+	android:theme
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:73:13-56
+	android:name
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:71:13-42
+activity#com.trybe.trybe.ProfilePicActivity
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:75:9-77:66
+	android:theme
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:77:13-63
+	android:name
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:76:13-47
+activity#com.trybe.trybe.ProfileSetupActivity
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:78:9-81:59
+	android:label
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:80:13-65
+	android:theme
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:81:13-56
+	android:name
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:79:13-49
+activity#com.trybe.trybe.JobPref1Activity
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:82:9-85:59
+	android:label
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:84:13-65
+	android:theme
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:85:13-56
+	android:name
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:83:13-45
+activity#com.trybe.trybe.JobPref2Activity
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:86:9-89:59
+	android:label
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:88:13-65
+	android:theme
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:89:13-56
+	android:name
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:87:13-45
+activity#com.trybe.trybe.ProfileSetupCompletedActivity
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:90:9-93:59
+	android:label
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:92:13-65
+	android:theme
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:93:13-56
+	android:name
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:91:13-58
+activity#com.trybe.trybe.SeekActivity
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:94:9-97:59
+	android:label
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:96:13-56
+	android:theme
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:97:13-56
+	android:name
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:95:13-41
+activity#com.trybe.trybe.ReferActivity
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:98:9-101:59
+	android:label
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:100:13-57
+	android:theme
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:101:13-56
+	android:name
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:99:13-42
+activity#com.trybe.trybe.JobPostActivity
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:102:9-104:59
+	android:theme
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:104:13-56
+	android:name
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:103:13-44
+activity#com.trybe.trybe.ShareActivity
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:105:9-108:59
+	android:label
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:107:13-57
+	android:theme
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:108:13-56
+	android:name
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:106:13-42
+activity#com.trybe.trybe.ChatActivity
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:109:9-116:20
+	android:parentActivityName
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:111:13-55
+	android:theme
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:112:13-56
+	android:name
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:110:13-41
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:113:13-115:49
+	android:value
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:115:17-46
+	android:name
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:114:17-63
+activity#com.trybe.trybe.ChatMessageActivity
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:117:9-124:20
+	android:parentActivityName
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:119:13-55
+	android:theme
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:120:13-56
+	android:name
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:118:13-48
+activity#com.trybe.trybe.ChangePassActivity
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:125:9-127:59
+	android:theme
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:127:13-56
+	android:name
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:126:13-47
+receiver#com.google.android.gms.gcm.GcmReceiver
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:130:9-139:20
+	android:exported
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:132:13-36
+	android:permission
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:133:13-73
+	android:name
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:131:13-66
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.trybe.trybe
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:134:13-138:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:135:17-81
+	android:name
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:135:25-78
+category#com.trybe.trybe
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:137:17-60
+	android:name
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:137:27-57
+service#com.trybe.trybe.gcm.GcmPushReceiver
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:141:9-147:19
+	android:exported
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:143:13-37
+	android:name
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:142:13-48
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:144:13-146:29
+service#com.trybe.trybe.gcm.GcmIntentService
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:148:9-154:19
+	android:exported
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:150:13-37
+	android:name
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:149:13-49
+intent-filter#action:name:com.google.android.gms.iid.InstanceID
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:151:13-153:29
+action#com.google.android.gms.iid.InstanceID
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:152:17-80
+	android:name
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:152:25-77
+meta-data#com.google.android.gms.version
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:157:9-159:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-basement-8.4.0.aar/3a2c676fe8a9a2bf81c5fb6757361243/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-basement-8.4.0.aar/3a2c676fe8a9a2bf81c5fb6757361243/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:159:13-66
+	android:name
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:158:13-58
+provider#com.facebook.FacebookContentProvider
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:162:9-165:39
+	android:authorities
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:163:13-90
+	android:exported
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:165:13-36
+	android:name
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:164:13-64
+meta-data#io.branch.sdk.BranchKey
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:167:9-169:73
+	android:value
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:169:13-70
+	android:name
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:168:13-51
+meta-data#io.branch.sdk.auto_link_keys
+ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:170:9-86
+	android:value
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:170:64-83
+	android:name
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml:170:20-63
+uses-sdk
+INJECTED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml
+INJECTED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml
+MERGED from [:linkedin-sdk] /Users/utkarshsingh/Downloads/trybe_code/linkedin-sdk/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:linkedin-sdk] /Users/utkarshsingh/Downloads/trybe_code/linkedin-sdk/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:multidex:1.0.2] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/ed9152224c357ea2f284bdb13140b1a4/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/ed9152224c357ea2f284bdb13140b1a4/AndroidManifest.xml:20:5-43
+MERGED from [com.github.afollestad.material-dialogs:core:0.8.5.8] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/core-0.8.5.8.aar/1bf4a8c92efdee8f18350fc97e1e1d8c/AndroidManifest.xml:8:5-11:75
+MERGED from [com.github.afollestad.material-dialogs:core:0.8.5.8] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/core-0.8.5.8.aar/1bf4a8c92efdee8f18350fc97e1e1d8c/AndroidManifest.xml:8:5-11:75
+MERGED from [com.android.support:design:23.3.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/design-23.3.0.aar/d0eff68daf38bb0d543c302d46dcb90e/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.3.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/design-23.3.0.aar/d0eff68daf38bb0d543c302d46dcb90e/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.3.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-23.3.0.aar/69fd8ff857c6df4b3832f8efd6304085/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.3.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-23.3.0.aar/69fd8ff857c6df4b3832f8efd6304085/AndroidManifest.xml:20:5-43
+MERGED from [com.github.paolorotolo:appintro:3.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/appintro-3.4.0.aar/acee6c3c6ec4f271a228db42761a2199/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.paolorotolo:appintro:3.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/appintro-3.4.0.aar/acee6c3c6ec4f271a228db42761a2199/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.7.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.7.0.aar/f526d2b2ad9c0c7f3dd8f30af672a514/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.7.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.7.0.aar/f526d2b2ad9c0c7f3dd8f30af672a514/AndroidManifest.xml:24:5-26:41
+MERGED from [com.google.android.gms:play-services:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-8.4.0.aar/84663879869e1650fbe4a694471b8814/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-8.4.0.aar/84663879869e1650fbe4a694471b8814/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-gcm-8.4.0.aar/378faf2b86e8ed18db39198394ecd2d1/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-gcm-8.4.0.aar/378faf2b86e8ed18db39198394ecd2d1/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/7afa5471ed86867b05330e1337589d4c/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/7afa5471ed86867b05330e1337589d4c/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-fitness:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-fitness-8.4.0.aar/f181205d3dbee190303de0dc5493b4b4/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-fitness:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-fitness-8.4.0.aar/f181205d3dbee190303de0dc5493b4b4/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-location:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-location-8.4.0.aar/876b2c477ffa2b4e28c23cd97b69c6a6/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-location:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-location-8.4.0.aar/876b2c477ffa2b4e28c23cd97b69c6a6/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-appindexing-8.4.0.aar/3862fec7c8e8cdf32bfca02d9250fe53/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-appindexing-8.4.0.aar/3862fec7c8e8cdf32bfca02d9250fe53/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-8.4.0.aar/eba509544df031cdebbc9c523233dede/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-8.4.0.aar/eba509544df031cdebbc9c523233dede/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appstate:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-appstate-8.4.0.aar/9bdc878063c93559e6a83abcd3282930/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appstate:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-appstate-8.4.0.aar/9bdc878063c93559e6a83abcd3282930/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-auth:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-auth-8.4.0.aar/144c8deb3d288959aaa220cb8a9a06aa/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-auth:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-auth-8.4.0.aar/144c8deb3d288959aaa220cb8a9a06aa/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-cast:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-cast-8.4.0.aar/3ce3fa44d7dabed520f37321a9cfb84f/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-cast:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-cast-8.4.0.aar/3ce3fa44d7dabed520f37321a9cfb84f/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-games:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-games-8.4.0.aar/333c676c4f140bafd3b160474277977b/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-games:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-games-8.4.0.aar/333c676c4f140bafd3b160474277977b/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-drive:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-drive-8.4.0.aar/0e24bc631744b77b48779fd3e17731ce/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-drive:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-drive-8.4.0.aar/0e24bc631744b77b48779fd3e17731ce/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-wallet:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-wallet-8.4.0.aar/1c0504c94b33682630bf56f26a33a3b1/AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-wallet:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-wallet-8.4.0.aar/1c0504c94b33682630bf56f26a33a3b1/AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-identity:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-identity-8.4.0.aar/13c803d791afec037b228be7e1061d3e/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-identity:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-identity-8.4.0.aar/13c803d791afec037b228be7e1061d3e/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-maps-8.4.0.aar/12e76a71ab266877ab4611abc28d3153/AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-maps-8.4.0.aar/12e76a71ab266877ab4611abc28d3153/AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-nearby:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-nearby-8.4.0.aar/a883e735d3bd185c572971a4dea240f6/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-nearby:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-nearby-8.4.0.aar/a883e735d3bd185c572971a4dea240f6/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-panorama:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-panorama-8.4.0.aar/04adcf4b20da03f166c0650f1ccde392/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-panorama:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-panorama-8.4.0.aar/04adcf4b20da03f166c0650f1ccde392/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-plus:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-plus-8.4.0.aar/6fb91772c7402b274a8034220f463b74/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-plus:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-plus-8.4.0.aar/6fb91772c7402b274a8034220f463b74/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-safetynet:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-8.4.0.aar/52097878101b826fe9f65f9d89b0f8fc/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-safetynet:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-8.4.0.aar/52097878101b826fe9f65f9d89b0f8fc/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-vision:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-vision-8.4.0.aar/de9d74314820dc9247d32c5f256d6339/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-vision:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-vision-8.4.0.aar/de9d74314820dc9247d32c5f256d6339/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-wearable:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-wearable-8.4.0.aar/730e05647496e68751e8c7eb44297ef8/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-wearable:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-wearable-8.4.0.aar/730e05647496e68751e8c7eb44297ef8/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/a609e5a3c5c199c99c1bc46d59aad791/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/a609e5a3c5c199c99c1bc46d59aad791/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-ads-8.4.0.aar/47cf0a246c9ebdf3889284c7e764fce2/AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-ads-8.4.0.aar/47cf0a246c9ebdf3889284c7e764fce2/AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-analytics-8.4.0.aar/d796a124e651d859ab26894348481de7/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-analytics-8.4.0.aar/d796a124e651d859ab26894348481de7/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-basement-8.4.0.aar/3a2c676fe8a9a2bf81c5fb6757361243/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-basement-8.4.0.aar/3a2c676fe8a9a2bf81c5fb6757361243/AndroidManifest.xml:18:5-42
+MERGED from [uk.co.chrisjenx:calligraphy:2.1.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/calligraphy-2.1.0.aar/ef55101825351f567387ccfb5a847421/AndroidManifest.xml:7:5-9:41
+MERGED from [uk.co.chrisjenx:calligraphy:2.1.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/calligraphy-2.1.0.aar/ef55101825351f567387ccfb5a847421/AndroidManifest.xml:7:5-9:41
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.1.5] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/library-1.1.5.aar/01aedb36dd3969fbf3a2c8af50748054/AndroidManifest.xml:12:5-14:41
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.1.5] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/library-1.1.5.aar/01aedb36dd3969fbf3a2c8af50748054/AndroidManifest.xml:12:5-14:41
+MERGED from [com.android.support:mediarouter-v7:23.0.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/982a8005d9b12200f6c2091670a5e14a/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:mediarouter-v7:23.0.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/982a8005d9b12200f6c2091670a5e14a/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.3.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.3.0.aar/dfcc9a4c1fb40da5c6f3cc35a3007391/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:23.3.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.3.0.aar/dfcc9a4c1fb40da5c6f3cc35a3007391/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.3.0.aar/15f1269955b8eb80b505bd647c47b397/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.3.0.aar/15f1269955b8eb80b505bd647c47b397/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.3.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.3.0.aar/63a74c984e5052132f06c9acad988629/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-vector-drawable:23.3.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.3.0.aar/63a74c984e5052132f06c9acad988629/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.3.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/support-v4-23.3.0.aar/0de8f1bfecffdbb4f56506489d8b2548/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.3.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/support-v4-23.3.0.aar/0de8f1bfecffdbb4f56506489d8b2548/AndroidManifest.xml:20:5-43
+MERGED from [com.lorentzos.swipecards:library:1.0.9] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/library-1.0.9.aar/04953be7cd467cb93041166088ccd150/AndroidManifest.xml:8:5-10:41
+MERGED from [com.lorentzos.swipecards:library:1.0.9] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/library-1.0.9.aar/04953be7cd467cb93041166088ccd150/AndroidManifest.xml:8:5-10:41
+MERGED from [de.hdodenhof:circleimageview:2.0.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/circleimageview-2.0.0.aar/ace207220f28e38e7eacb85be945616f/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.0.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/circleimageview-2.0.0.aar/ace207220f28e38e7eacb85be945616f/AndroidManifest.xml:5:5-7:41
+MERGED from [io.branch.sdk.android:library:2.0.3] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/library-2.0.3.aar/1bca88d1338a0685906fe25fc81fb3af/AndroidManifest.xml:7:5-9:41
+MERGED from [io.branch.sdk.android:library:2.0.3] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/library-2.0.3.aar/1bca88d1338a0685906fe25fc81fb3af/AndroidManifest.xml:7:5-9:41
+MERGED from [io.branch.external.answersshim:answers-shim:0.0.4] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/answers-shim-0.0.4.aar/061aee67d7ef602bc55c604434ee2ffa/AndroidManifest.xml:7:5-9:41
+MERGED from [io.branch.external.answersshim:answers-shim:0.0.4] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/answers-shim-0.0.4.aar/061aee67d7ef602bc55c604434ee2ffa/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml
+INJECTED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.github.afollestad.material-dialogs:core:0.8.5.8] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/core-0.8.5.8.aar/1bf4a8c92efdee8f18350fc97e1e1d8c/AndroidManifest.xml:11:9-72
+	android:targetSdkVersion
+		INJECTED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml
+		ADDED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/utkarshsingh/Downloads/trybe_code/app/src/main/AndroidManifest.xml
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-gcm-8.4.0.aar/378faf2b86e8ed18db39198394ecd2d1/AndroidManifest.xml:21:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-gcm-8.4.0.aar/378faf2b86e8ed18db39198394ecd2d1/AndroidManifest.xml:21:22-79
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/7afa5471ed86867b05330e1337589d4c/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-maps-8.4.0.aar/12e76a71ab266877ab4611abc28d3153/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-maps-8.4.0.aar/12e76a71ab266877ab4611abc28d3153/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-nearby:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-nearby-8.4.0.aar/a883e735d3bd185c572971a4dea240f6/AndroidManifest.xml:19:5-79
+MERGED from [com.google.android.gms:play-services-nearby:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-nearby-8.4.0.aar/a883e735d3bd185c572971a4dea240f6/AndroidManifest.xml:19:5-79
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-ads-8.4.0.aar/47cf0a246c9ebdf3889284c7e764fce2/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-ads-8.4.0.aar/47cf0a246c9ebdf3889284c7e764fce2/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-analytics-8.4.0.aar/d796a124e651d859ab26894348481de7/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-analytics-8.4.0.aar/d796a124e651d859ab26894348481de7/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/7afa5471ed86867b05330e1337589d4c/AndroidManifest.xml:22:22-76
+provider#com.google.android.gms.measurement.AppMeasurementContentProvider
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/7afa5471ed86867b05330e1337589d4c/AndroidManifest.xml:28:7-31:37
+	android:authorities
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/7afa5471ed86867b05330e1337589d4c/AndroidManifest.xml:29:11-76
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/7afa5471ed86867b05330e1337589d4c/AndroidManifest.xml:31:11-35
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/7afa5471ed86867b05330e1337589d4c/AndroidManifest.xml:30:11-90
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/7afa5471ed86867b05330e1337589d4c/AndroidManifest.xml:33:7-39:18
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/7afa5471ed86867b05330e1337589d4c/AndroidManifest.xml:35:11-33
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/7afa5471ed86867b05330e1337589d4c/AndroidManifest.xml:34:11-83
+intent-filter#action:name:com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/7afa5471ed86867b05330e1337589d4c/AndroidManifest.xml:36:9-38:25
+action#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/7afa5471ed86867b05330e1337589d4c/AndroidManifest.xml:37:11-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/7afa5471ed86867b05330e1337589d4c/AndroidManifest.xml:37:19-75
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/7afa5471ed86867b05330e1337589d4c/AndroidManifest.xml:41:7-44:37
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/7afa5471ed86867b05330e1337589d4c/AndroidManifest.xml:43:11-33
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/7afa5471ed86867b05330e1337589d4c/AndroidManifest.xml:44:11-35
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/7afa5471ed86867b05330e1337589d4c/AndroidManifest.xml:42:11-82
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-8.4.0.aar/eba509544df031cdebbc9c523233dede/AndroidManifest.xml:21:9-29:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-8.4.0.aar/eba509544df031cdebbc9c523233dede/AndroidManifest.xml:23:17-40
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-8.4.0.aar/eba509544df031cdebbc9c523233dede/AndroidManifest.xml:24:17-63
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-8.4.0.aar/eba509544df031cdebbc9c523233dede/AndroidManifest.xml:22:17-48
+intent-filter#action:name:com.google.android.gms.appinvite.ACTION_PREVIEW+category:name:android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-8.4.0.aar/eba509544df031cdebbc9c523233dede/AndroidManifest.xml:25:13-28:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-8.4.0.aar/eba509544df031cdebbc9c523233dede/AndroidManifest.xml:26:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-8.4.0.aar/eba509544df031cdebbc9c523233dede/AndroidManifest.xml:26:25-87
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-auth-8.4.0.aar/144c8deb3d288959aaa220cb8a9a06aa/AndroidManifest.xml:21:9-24:46
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-auth-8.4.0.aar/144c8deb3d288959aaa220cb8a9a06aa/AndroidManifest.xml:23:19-52
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-auth-8.4.0.aar/144c8deb3d288959aaa220cb8a9a06aa/AndroidManifest.xml:24:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-auth-8.4.0.aar/144c8deb3d288959aaa220cb8a9a06aa/AndroidManifest.xml:22:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-auth-8.4.0.aar/144c8deb3d288959aaa220cb8a9a06aa/AndroidManifest.xml:21:19-72
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-auth-8.4.0.aar/144c8deb3d288959aaa220cb8a9a06aa/AndroidManifest.xml:28:9-31:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-auth-8.4.0.aar/144c8deb3d288959aaa220cb8a9a06aa/AndroidManifest.xml:30:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-auth-8.4.0.aar/144c8deb3d288959aaa220cb8a9a06aa/AndroidManifest.xml:31:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-auth-8.4.0.aar/144c8deb3d288959aaa220cb8a9a06aa/AndroidManifest.xml:29:13-62
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-maps-8.4.0.aar/12e76a71ab266877ab4611abc28d3153/AndroidManifest.xml:22:5-24:33
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-maps-8.4.0.aar/12e76a71ab266877ab4611abc28d3153/AndroidManifest.xml:23:8-40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-maps-8.4.0.aar/12e76a71ab266877ab4611abc28d3153/AndroidManifest.xml:24:8-31
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-ads-8.4.0.aar/47cf0a246c9ebdf3889284c7e764fce2/AndroidManifest.xml:26:9-29:64
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-ads-8.4.0.aar/47cf0a246c9ebdf3889284c7e764fce2/AndroidManifest.xml:28:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-ads-8.4.0.aar/47cf0a246c9ebdf3889284c7e764fce2/AndroidManifest.xml:29:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-ads-8.4.0.aar/47cf0a246c9ebdf3889284c7e764fce2/AndroidManifest.xml:27:13-65
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-ads-8.4.0.aar/47cf0a246c9ebdf3889284c7e764fce2/AndroidManifest.xml:30:9-31:52
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-ads-8.4.0.aar/47cf0a246c9ebdf3889284c7e764fce2/AndroidManifest.xml:31:13-50
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] /Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-ads-8.4.0.aar/47cf0a246c9ebdf3889284c7e764fce2/AndroidManifest.xml:30:19-91

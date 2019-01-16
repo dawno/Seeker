@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:weightSum="11"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:background="@color/colorLightGray"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingTop="6dp">
+
+            <ImageButton
+                android:id="@+id/navMenu"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="35dp"
+                android:adjustViewBounds="true"
+                android:background="@color/colorLightGray"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_menu_24dp" />
+
+            <ImageButton
+                android:id="@+id/chatBtn"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:adjustViewBounds="true"
+                android:background="@color/colorLightGray"
+                android:scaleType="fitCenter"
+                android:src="@drawable/chaticon" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/breakerHeight"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorPrimaryDark" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profilePic"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/anon_user" />
+
+                <TextView
+                    android:id="@+id/userName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/profilePic"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="9dp"
+                    android:text="Hi Gopi Ramena"
+                    android:textAlignment="center"
+                    android:textColor="@color/textGray"
+                    android:textSize="24sp" />
+
+            </RelativeLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/seek"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/circle"
+                android:clickable="true"
+                android:gravity="center"
+                android:onClick="openSeek"
+                android:text="Seek"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="34sp" />
+
+            <RelativeLayout
+                android:id="@+id/seekDroplet"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@id/seek"
+                android:layout_marginTop="158dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/droplet1" />
+
+                <TextView
+                    android:id="@+id/seekDropletText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginTop="6dp"
+                    android:gravity="center"
+                    android:text="..."
+                    android:textSize="25sp" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/refer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/circle"
+                android:clickable="true"
+                android:gravity="center"
+                android:onClick="openRefer"
+                android:text="Refer"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="34sp" />
+
+            <RelativeLayout
+                android:id="@+id/jobPost"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignRight="@id/refer"
+                android:layout_marginTop="158dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/droplet2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="1dp"
+                    android:gravity="center"
+                    android:text="+"
+                    android:textSize="35sp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/jobPost"
+                android:layout_below="@id/jobPost"
+                android:layout_marginLeft="8dp"
+                android:text="Add a\nJob"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/textMedium" />
+
+            <RelativeLayout
+                android:id="@+id/referDroplet"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@id/refer"
+                android:layout_marginLeft="21dp"
+                android:layout_marginTop="164dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/droplet3" />
+
+                <TextView
+                    android:id="@+id/referDropletText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginTop="7dp"
+                    android:gravity="center"
+                    android:text="..."
+                    android:textSize="25sp" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

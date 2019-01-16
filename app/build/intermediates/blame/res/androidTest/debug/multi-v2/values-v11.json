@@ -1,0 +1,64 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/utkarshsingh/Downloads/trybe_code/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v11/values-v11.xml",
+            "map": [
+                {
+                    "source": "/Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.3.0.aar/d7ade3b0134161d9b81e7eb936d43d75/res/values-v11/values-v11.xml",
+                    "from": {
+                        "startLines": "2,8,14,20,26,32,38,39,40,45,50,52,54,55,56,107,159",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,474,899,1327,1753,2180,2605,2694,2795,3203,3623,3730,3859,3930,4013,7721,11569",
+                        "endLines": "7,13,19,25,31,37,38,39,44,49,51,53,54,55,106,158,159",
+                        "endColumns": "12,12,12,12,12,12,88,100,12,12,12,12,70,82,12,12,90",
+                        "endOffsets": "469,894,1322,1748,2175,2600,2689,2790,3198,3618,3725,3854,3925,4008,7716,11564,11655"
+                    },
+                    "to": {
+                        "startLines": "2,8,14,20,26,32,38,39,40,45,50,52,88,89,90,141,193",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,474,899,1327,1753,2180,2605,2694,2795,3203,3623,3730,5919,5990,6073,9781,13629",
+                        "endLines": "7,13,19,25,31,37,38,39,44,49,51,53,88,89,140,192,193",
+                        "endColumns": "12,12,12,12,12,12,88,100,12,12,12,12,70,82,12,12,90",
+                        "endOffsets": "469,894,1322,1748,2175,2600,2689,2790,3198,3618,3725,3854,5985,6068,9776,13624,13715"
+                    }
+                },
+                {
+                    "source": "/Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/core-0.8.5.8.aar/a4740d6e6d8d0b77e7f9b367113c8bde/res/values-v11/values-v11.xml",
+                    "from": {
+                        "startLines": "2,19",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,1094",
+                        "endLines": "18,35",
+                        "endColumns": "12,12",
+                        "endOffsets": "1089,2110"
+                    },
+                    "to": {
+                        "startLines": "54,71",
+                        "startColumns": "4,4",
+                        "startOffsets": "3859,4898",
+                        "endLines": "70,87",
+                        "endColumns": "12,12",
+                        "endOffsets": "4893,5914"
+                    }
+                },
+                {
+                    "source": "/Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-8.4.0.aar/ce76f9fab159bd44872cb62c86a7937d/res/values-v11/appinvite_styles.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "101",
+                        "endColumns": "117",
+                        "endOffsets": "214"
+                    },
+                    "to": {
+                        "startLines": "194",
+                        "startColumns": "4",
+                        "startOffsets": "13720",
+                        "endColumns": "117",
+                        "endOffsets": "13833"
+                    }
+                }
+            ]
+        }
+    ]
+}

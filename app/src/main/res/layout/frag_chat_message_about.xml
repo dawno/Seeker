@@ -1,0 +1,177 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.trybe.trybe.ChatMessageAboutFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="30dp">
+
+                <ImageButton
+                    android:id="@+id/chatResumeBtn"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:adjustViewBounds="true"
+                    android:background="@color/white"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/download_icon" />
+
+                <TextView
+                    android:id="@+id/chatResumeText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@id/chatResumeBtn"
+                    android:text="Download Resume"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/textLarge" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="30dp">
+
+                <ImageButton
+                    android:id="@+id/chatEmailBtn"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:adjustViewBounds="true"
+                    android:background="@color/white"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/email_icon" />
+
+                <TextView
+                    android:id="@+id/chatAboutName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@id/chatEmailBtn"
+                    android:text=""
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/textLarge" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/chatAboutSchool"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text=""
+                android:textColor="@color/textGray"
+                android:textSize="@dimen/textMedium" />
+
+            <TextView
+                android:id="@+id/chatAboutWork"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text=""
+                android:textColor="@color/textGray"
+                android:textSize="@dimen/textMedium" />
+
+            <TextView
+                android:id="@+id/chatAboutSectors"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text=""
+                android:textColor="@color/textGray"
+                android:textSize="@dimen/textMedium" />
+
+            <TextView
+                android:id="@+id/chatAboutSkills"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text=""
+                android:textColor="@color/textGray"
+                android:textSize="@dimen/textMedium" />
+
+            <TextView
+                android:id="@+id/chatAboutProjects"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text=""
+                android:textColor="@color/textGray"
+                android:textSize="@dimen/textMedium" />
+
+            <LinearLayout
+                android:id="@+id/jdContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Job Description"
+                    android:textColor="@color/textGray"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/caPost"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text=""
+                    android:textColor="@color/textGray"
+                    android:textSize="@dimen/textLarge" />
+
+                <TextView
+                    android:id="@+id/caCompany"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text=""
+                    android:textColor="@color/textGray"
+                    android:textSize="@dimen/textLarge" />
+
+                <TextView
+                    android:id="@+id/caLocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text=""
+                    android:textColor="@color/textGray"
+                    android:textSize="@dimen/textLarge" />
+
+                <TextView
+                    android:id="@+id/caSalary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text=""
+                    android:textColor="@color/textGray"
+                    android:textSize="@dimen/textLarge" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

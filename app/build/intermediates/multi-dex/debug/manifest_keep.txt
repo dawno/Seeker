@@ -1,0 +1,3 @@
+# Referenced at /Users/utkarshsingh/Downloads/trybe_code/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:41
+-keep class com.trybe.trybe.app.BaseApplication { <init>(...); }
+

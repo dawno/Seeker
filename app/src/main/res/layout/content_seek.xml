@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin_less"
+    android:paddingLeft="@dimen/activity_horizontal_margin_less"
+    android:paddingRight="@dimen/activity_horizontal_margin_less"
+    android:paddingTop="@dimen/activity_vertical_margin_less"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.trybe.trybe.SeekActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="1dp"
+        android:orientation="horizontal"
+        android:paddingTop="6dp">
+
+        <ImageButton
+            android:id="@+id/navMenu"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="35dp"
+            android:adjustViewBounds="true"
+            android:background="@color/white"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_menu_24dp" />
+
+        <ImageButton
+            android:id="@+id/chatBtn"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:adjustViewBounds="true"
+            android:background="@color/white"
+            android:scaleType="fitCenter"
+            android:src="@drawable/chaticon" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/breakerHeight"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimaryDark" />
+
+    <LinearLayout
+        android:id="@+id/emptyFrame"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/emptyFrameTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_vertical"
+            android:lineSpacingExtra="9dp"
+            android:text="That's it for now!\nCheck back soon!"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/textHuge" />
+    </LinearLayout>
+
+    <com.lorentzos.flingswipe.SwipeFlingAdapterView
+        android:id="@+id/swipeFrame"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/rectangle_border"
+        android:visibility="visible"
+        app:max_visible="1"
+        app:min_adapter_stack="4"
+        app:rotation_degrees="15.5" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_marginTop="1dp"
+        android:gravity="center|bottom"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/swipeLeft"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="30dp"
+            android:adjustViewBounds="true"
+            android:background="@color/white"
+            android:scaleType="fitCenter"
+            android:src="@drawable/cross" />
+
+        <ImageButton
+            android:id="@+id/swipeRight"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:adjustViewBounds="true"
+            android:background="@color/white"
+            android:scaleType="fitCenter"
+            android:src="@drawable/tick" />
+    </LinearLayout>
+
+</LinearLayout>

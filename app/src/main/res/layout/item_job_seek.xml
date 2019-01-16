@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorPurple">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profilePic"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/anon_user" />
+
+        <View
+            android:id="@+id/item_swipe_left_indicator"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:alpha="0"
+            android:background="@drawable/tick" />
+
+        <View
+            android:id="@+id/item_swipe_right_indicator"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_margin="10dp"
+            android:alpha="0"
+            android:background="@drawable/cross" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Personal Details"
+                android:textColor="@color/textGray"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tvRefName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="**** ***"
+                android:textColor="@color/textGray"
+                android:textSize="@dimen/textLarge" />
+
+            <TextView
+                android:id="@+id/tvCurrentPost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Asst Manager, Big Data"
+                android:textColor="@color/textGray"
+                android:textSize="@dimen/textLarge" />
+
+            <TextView
+                android:id="@+id/tvCurrentCompany"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="XYZ Analytics"
+                android:textColor="@color/textGray"
+                android:textSize="@dimen/textLarge" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Job Description"
+                android:textColor="@color/textGray"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tvCompany"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="XYZ Analytics"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/textLarge" />
+
+            <TextView
+                android:id="@+id/tvPost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Tech Lead"
+                android:textColor="@color/textGray"
+                android:textSize="@dimen/textLarge" />
+
+            <TextView
+                android:id="@+id/tvLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Bengaluru"
+                android:textColor="@color/textGray"
+                android:textSize="@dimen/textLarge" />
+
+            <TextView
+                android:id="@+id/tvSalary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="5-6 Lacs"
+                android:textColor="@color/textGray"
+                android:textSize="@dimen/textLarge" />
+
+            <TextView
+                android:id="@+id/tvRemark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text=""
+                android:textColor="@color/textGray"
+                android:textSize="@dimen/textLarge" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

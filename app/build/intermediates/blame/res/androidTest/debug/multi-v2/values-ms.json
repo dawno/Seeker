@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/utkarshsingh/Downloads/trybe_code/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-ms/values-ms.xml",
+            "map": [
+                {
+                    "source": "/Users/utkarshsingh/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.7.0.aar/ef565b04b4cb274296612fde2cb3c07a/res/values-ms/values-ms.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,22",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "161,278,401,496,563,631,693,764,839,935,1012,1089,1179,1288,1353,1419,1681",
+                        "endColumns": "116,122,94,66,67,61,70,74,95,76,76,89,108,64,65,138,61",
+                        "endOffsets": "273,396,491,558,626,688,759,834,930,1007,1084,1174,1283,1348,1414,1553,1738"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,172,295,390,457,525,587,658,733,829,906,983,1073,1182,1247,1313,1452",
+                        "endColumns": "116,122,94,66,67,61,70,74,95,76,76,89,108,64,65,138,61",
+                        "endOffsets": "167,290,385,452,520,582,653,728,824,901,978,1068,1177,1242,1308,1447,1509"
+                    }
+                }
+            ]
+        }
+    ]
+}

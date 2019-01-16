@@ -1,0 +1,72 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6FFFFFF"
+    tools:context="com.trybe.trybe.ReferJobOverlay">
+
+    <RelativeLayout
+        android:id="@+id/jobLvContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/newJobPost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add a New Job"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/textHuge" />
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginLeft="10dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/plus" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/jobLv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/newJobPost"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:divider="@null"
+            android:dividerHeight="0dp">
+
+        </ListView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/noJobs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_vertical"
+            android:lineSpacingExtra="9dp"
+            android:text="No jobs added\nby you yet!"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/textHuge" />
+    </LinearLayout>
+
+</FrameLayout>

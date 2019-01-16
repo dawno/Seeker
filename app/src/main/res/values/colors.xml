@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9FE4D2</color>
+    <color name="colorPrimaryDark">#00987F</color>
+    <color name="colorAccent">#00987F</color>
+    <color name="colorYellow">#EFFA00</color>
+    <color name="colorLightGray">#e6e0e0</color>
+    <color name="colorLightGrayTranslucent">#59e6e0e0</color>
+    <color name="colorPurple">#cfb2e6</color>
+    <color name="landingBlack">#232227</color>
+
+    <color name="textChatPurple">#B6A9F6</color>
+    <color name="textLandingGray">#7B7A7D</color>
+    <color name="textLandingOrange">#EB881D</color>
+    <color name="textWhite">#E4E3EB</color>
+    <color name="textGray">#797A64</color>
+    <color name="textDarkGreen">#00987F</color>
+    <color name="textLightGreen">#9FE4D2</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black_overlay">#66000000</color>
+
+    <color name="circle1">#00987f</color>
+    <color name="circle2">#00987F</color>
+    <color name="circle3">#88dd71</color>
+    <color name="circle4">#f6b9ac</color>
+    <color name="circle5">#cacfe0</color>
+    <color name="circle6">#f1dabc</color>
+    <color name="circle7">#c8dba7</color>
+    <color name="circle8">#cfb2e6</color>
+
+    <color name="chat_bubble_self">#9fe4d2</color>
+    <color name="chat_bubble_other">#a4f2b1</color>
+    <color name="chat_bubble_unsent">#b3fbe8</color>
+
+</resources>
